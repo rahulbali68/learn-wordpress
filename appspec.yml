@@ -8,3 +8,4 @@ hooks:
     - location: BeforeInstall.sh
       timeout: 300
       runas: root
+      when: manual
