@@ -4,6 +4,6 @@ files:
  - source: /
    destination: /var/www/html
 hooks:
-  afterinstall:
+  BeforeInstall:
     - location: afterinstall.sh
     
