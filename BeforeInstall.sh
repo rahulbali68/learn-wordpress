@@ -1,1 +1,1 @@
-yum  install httpd -y
+sudo systemctl stop httpd.service
