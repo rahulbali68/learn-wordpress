@@ -1,1 +1,1 @@
-sudo systemctl stop httpd.service
+ls -l
