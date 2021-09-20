@@ -1,3 +1,10 @@
+
+sudo apt install ruby-full
+cd /home/ubuntu
+sudo wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
+sudo chmod +x ./install
+sudo chmod +x ./install
+sudo ./install auto
 sudo apt-get update -y
 sudo apt-get install apache2 -y
 sudo systemctl start apache2.service
